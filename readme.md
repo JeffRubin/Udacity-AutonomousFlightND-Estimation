@@ -66,6 +66,6 @@ Met the performance criteria for each step of the project with the provided cont
  
  ## Meet Performance Criteria - My Controller
  * Scenario 11 - GPS Update
-    * ![Scenario 11 - GPS Update (My Controller From 'Building A Controller' Project)](readmeFigures\scenario11MyController.png "Scenario 11 - GPS Update (My Controller)")
+    * ![Scenario 11 - GPS Update (My Controller From 'Building A Controller' Project)](readmeFigures/scenario11MyController.png "Scenario 11 - GPS Update (My Controller)")
         * De-tuned my controller from the 'Building A Controller' project to successfully fly the final desired box trajectory with my estimator and realistic sensors.
         * < 1 m error for entire box flight
