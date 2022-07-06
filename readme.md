@@ -7,6 +7,8 @@ Calculated the sample standard deviation according to:
 
 Note that for calculation, sample standard deviation was used (denominator: n-1) instead of population standard deviation (denominator: n) since the underlying data was sampled and since the sample standard deviation is more conservative (larger standard deviation).
 
+To determine the following values, implemented the equation above in Excel.  Note that Excel's STDEV.S was not used; the equation above was implemented without using any of Excel's built-in statistics functions.
+
 Calculated values:
 * MeasuredStdDev_GPSPosXY = 0.714619
 * MeasuredStdDev_AccelXY = 0.489301
@@ -64,6 +66,6 @@ Met the performance criteria for each step of the project with the provided cont
  
  ## Meet Performance Criteria - My Controller
  * Scenario 11 - GPS Update
-    * ![Scenario 11 - GPS Update (My Controller From 'Building A Controller' Project)](readmeFigures/scenario11MyController.png "Scenario 11 - GPS Update (My Controller)")
+    * ![Scenario 11 - GPS Update (My Controller From 'Building A Controller' Project)](readmeFigures\scenario11MyController.png "Scenario 11 - GPS Update (My Controller)")
         * De-tuned my controller from the 'Building A Controller' project to successfully fly the final desired box trajectory with my estimator and realistic sensors.
         * < 1 m error for entire box flight
